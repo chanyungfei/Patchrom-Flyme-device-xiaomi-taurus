@@ -582,6 +582,8 @@
 
     iput-object v1, p0, Landroid/net/wifi/WifiConfiguration;->mIpConfiguration:Landroid/net/IpConfiguration;
 
+    invoke-static/range {p0 .. p0}, Landroid/net/wifi/WifiConfiguration$FlymeInjector;->initFlymeExtraFields(Landroid/net/wifi/WifiConfiguration;)V
+
     iput-boolean v4, p0, Landroid/net/wifi/WifiConfiguration;->duplicateNetwork:Z
 
     iput v4, p0, Landroid/net/wifi/WifiConfiguration;->SIMNum:I
