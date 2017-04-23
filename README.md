@@ -1,0 +1,1 @@
+Base on Android 6.0 For Xiaomi MI 2A(taurus) by Ivan.
